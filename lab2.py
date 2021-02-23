@@ -3,4 +3,5 @@
 base= int(input('Enter the base'))
 height= int(input('Enter the height'))
 Area= 1/2*base*height
-print('The area of right-angled triangle is',Area)
+#the floor division // rounds the result down to the nearest whole number
+print(f'The area of right-angled triangle is {Area}')
